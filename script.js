@@ -1,5 +1,9 @@
+var userName;
 // GIVES YOU THE VALUE OF THE INPUT
 function inputValue(){
-  var x = document.querySelector("#userName").value;
-  return x;
+  userName = document.querySelector("input").value;
+}
+
+function greeting(){
+  document.querySelector(".userName").innerText=userName;
 }

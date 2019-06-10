@@ -8,11 +8,16 @@
 </head>
 
 <body>
+  <h1>Shouting-App</h1>
   <div class="question1">
-    <p>Whats your name? <br />
+    <h2>Whats your name? <br />
       <input type="text" id="userName" required>
-    </p>
-    <button onclick="inputValue()">My name is...</button>
+    </h2>
+    <button onclick="inputValue();greeting()">My name is...</button>
+  </div>
+
+  <div class="answer1">
+    <h2>Well its a pleasure to meet you <span class="userName"></span></h2>
   </div>
 
   <script src="script.js" charset="utf-8"></script>
